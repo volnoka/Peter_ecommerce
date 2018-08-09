@@ -14,7 +14,7 @@ Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-hea
 
 .buzz-menulink {
     border-bottom: 0;
-    background-color: #86bc42;
+    background-color: #50dd40;
 }
 
 .buzz-menulink ul li:hover > a, 
@@ -29,11 +29,11 @@ Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-hea
 }
 
 .buzz-menulink ul ul {
-    background-color: #86bc42;
+    background-color: #50dd40;
 }
 
 .buzz-menulink ul ul li:hover {
-    background-color: #72a038;
+    background-color: #4bd1c8;
 }
 
 .buzz-menulink ul > li.menu-item-has-children > a:after, 
@@ -47,4 +47,39 @@ Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-hea
 
 .buzz-main-header {
     padding: 45px 0;
+}
+
+/*--------------------------------------------------------------
+## Breadcrumbs Section
+--------------------------------------------------------------*/
+
+.breadcrumbswrap {
+    min-height: 150px;
+	max-height: 200px;
+    padding: 70px 0 50px;
+    position: relative;
+}
+
+.breadcrumbswrap .buzz-container{
+    position: relative;
+}
+
+.breadcrumbswrap .entry-header h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+## Mian Container
+--------------------------------------------------------------*/
+
+.buzz-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left:15px;
+    padding-right:15px;
 }
